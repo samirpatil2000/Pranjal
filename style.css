@@ -1,0 +1,33 @@
+<style>* {}
+
+.navbar {
+    background: #042241;
+    padding: 10px 15px;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar .navbar-brand span {
+    color: rgb(206, 209, 238);
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: white;
+    font-size: larger;
+    padding: 1rem 1.5rem;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: rgb(9, 12, 56);
+}
+
+#navbarSupportedContent>ul>li:nth-child(n):hover {
+    background: rgb(206, 209, 238);
+    border-radius: 5px;
+}
+
+</style>
